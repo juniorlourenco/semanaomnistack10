@@ -8,7 +8,7 @@ mongoose.connect('mongodb+srv://juniorlourenco:fuckuguy8@cluster0-nqouv.mongodb.
     useUnifiedTopology: true,
     useCreateIndex: true,
 });
-
+console.log ('Connected to database.')
 
 app.use (express.json());
 app.use (routes);
@@ -22,4 +22,4 @@ app.use (routes);
 
 //MongoDB (Não-relacional)
 
-app.listen(3333);
+app.listen(3334);

@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "repository": "https://github.com/juniorlourenco/semanaomnistack10.git",
+  "author": "juniorlourenco <56567317+juniorlourenco@users.noreply.github.com>",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
